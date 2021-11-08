@@ -1,0 +1,55 @@
+{
+  "project": {
+    "id": "shablon_smartpush",
+    "name": "shablon_smartpush",
+    "folder": "/jaicp"
+  },
+  "settings": {
+    "language": "ru",
+    "spellingCorrection": false,
+    "classificationAlgorithm": "sts",
+    "timezone": "Europe/Moscow",
+    "extendedSettings": {
+      "tokenizerEngine": "default"
+    },
+    "shared": false
+  },
+  "intents": [
+    {
+      "id": 222845,
+      "path": "/push",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "push"
+        },
+        {
+          "text": "пуш"
+        }
+      ],
+      "patterns": []
+    },
+    {
+      "id": 223343,
+      "path": "/Exit",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "выход"
+        }
+      ],
+      "patterns": []
+    }
+  ],
+  "entities": [],
+  "enabledSystemEntities": [
+    "duckling.number",
+    "duckling.time",
+    "duckling.duration",
+    "duckling.phone-number",
+    "duckling.email",
+    "duckling.url"
+  ]
+}
